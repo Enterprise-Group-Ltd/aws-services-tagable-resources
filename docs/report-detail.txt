@@ -1,0 +1,683 @@
+
+
+  ------------------------------------------------------------------------------------------
+  ------------------------------------------------------------------------------------------
+
+  AWS Services Tagable Resources Detail Report
+
+  Script Version: 1.0.12
+
+  Date: 2017-10-02-170835
+
+  AWS Account: 123456789012   
+
+
+  Number of regions: 14 
+
+  Number of tagable resources: 64 
+
+  Number of tags: 143 
+
+
+  ------------------------------------------------------------------------------------------
+
+
+  Tagable Resources per service per AWS Region:
+  -----------------------------------------------------------------------
+     cloudfront         global     1
+     ec2                us-east-1  12
+     ec2                us-east-2  11
+     elasticfilesystem  us-east-1  1
+     rds                us-east-1  38
+     s3                 global     1
+
+
+  ------------------------------------------------------------------------------------------
+
+
+  Tagable Resources per AWS Region detail:
+  -----------------------------------------------------------------------
+     
+     --------------------------------------------------------------------------------------------------
+     
+     Tagable resources in region: ap-northeast-1 count:0
+     --------------------------------------------------
+     
+     --------------------------------------------------------------------------------------------------
+     --------------------------------------------------------------------------------------------------
+     
+     Tagable resources in region: ap-northeast-2 count:0
+     --------------------------------------------------
+     
+     --------------------------------------------------------------------------------------------------
+     --------------------------------------------------------------------------------------------------
+     
+     Tagable resources in region: ap-south-1 count:0
+     --------------------------------------------------
+     
+     --------------------------------------------------------------------------------------------------
+     --------------------------------------------------------------------------------------------------
+     
+     Tagable resources in region: ap-southeast-1 count:0
+     --------------------------------------------------
+     
+     --------------------------------------------------------------------------------------------------
+     --------------------------------------------------------------------------------------------------
+     
+     Tagable resources in region: ap-southeast-2 count:0
+     --------------------------------------------------
+     
+     --------------------------------------------------------------------------------------------------
+     --------------------------------------------------------------------------------------------------
+     
+     Tagable resources in region: ca-central-1 count:0
+     --------------------------------------------------
+     
+     --------------------------------------------------------------------------------------------------
+     --------------------------------------------------------------------------------------------------
+     
+     Tagable resources in region: eu-central-1 count:0
+     --------------------------------------------------
+     
+     --------------------------------------------------------------------------------------------------
+     --------------------------------------------------------------------------------------------------
+     
+     Tagable resources in region: eu-west-1 count:0
+     --------------------------------------------------
+     
+     --------------------------------------------------------------------------------------------------
+     --------------------------------------------------------------------------------------------------
+     
+     Tagable resources in region: eu-west-2 count:0
+     --------------------------------------------------
+     
+     --------------------------------------------------------------------------------------------------
+     --------------------------------------------------------------------------------------------------
+     
+     Tagable resources in region: sa-east-1 count:0
+     --------------------------------------------------
+     
+     --------------------------------------------------------------------------------------------------
+     --------------------------------------------------------------------------------------------------
+     
+     Tagable resources in region: us-east-1 count:53
+     --------------------------------------------------
+     ResourceARN: arn:aws:cloudfront::123456789012 :distribution/EBMYXXZHMCNCR 
+     Tags: 
+       Value: Training CloudFront Distribution 
+       Key: Name
+       ---------- 
+       Value: tag test 
+       Key: type
+       ---------- 
+     ResourceARN: arn:aws:ec2:us-east-1:123456789012 :instance/i-026ef5a38d5c69d22 
+     Tags: 
+       Value: test-us-east-1 
+       Key: Name
+       ---------- 
+     ResourceARN: arn:aws:ec2:us-east-1:123456789012 :instance/i-0632e8b48876c966b 
+     Tags: 
+       Value: aa-dev02-work-utilities-01 
+       Key: Name
+       ---------- 
+     ResourceARN: arn:aws:ec2:us-east-1:123456789012 :internet-gateway/igw-58e8b13e 
+     Tags: 
+       Value: spot-cli-test-ig 
+       Key: Name
+       ---------- 
+     ResourceARN: arn:aws:ec2:us-east-1:123456789012 :security-group/sg-17ea7166 
+     Tags: 
+       Value: training-DMZ 
+       Key: Name
+       ---------- 
+     ResourceARN: arn:aws:ec2:us-east-1:123456789012 :security-group/sg-636d6a12 
+     Tags: 
+       Value: spot-cli-test-sg 
+       Key: Name
+       ---------- 
+     ResourceARN: arn:aws:ec2:us-east-1:123456789012 :security-group/sg-bdc4abcc 
+     Tags: 
+       Value: training-RDS 
+       Key: Name
+       ---------- 
+     ResourceARN: arn:aws:ec2:us-east-1:123456789012 :snapshot/snap-0df236f661238c1fc 
+     Tags: 
+       Value: ebs-snapshot-test-01 
+       Key: Name
+       ---------- 
+       Value: test 
+       Key: type
+       ---------- 
+     ResourceARN: arn:aws:ec2:us-east-1:123456789012 :subnet/subnet-9a7991fe 
+     Tags: 
+       Value: aa-spot-cli-test-10.1.0.0-public 
+       Key: Name
+       ---------- 
+     ResourceARN: arn:aws:ec2:us-east-1:123456789012 :subnet/subnet-9b4524b7 
+     Tags: 
+       Value: aa-spot-cli-test-10.1.1.0-public 
+       Key: Name
+       ---------- 
+     ResourceARN: arn:aws:ec2:us-east-1:123456789012 :volume/vol-01d0e456260d1874d 
+     Tags: 
+       Value: aa-dev02-work-utilities-01 
+       Key: Name
+       ---------- 
+     ResourceARN: arn:aws:ec2:us-east-1:123456789012 :volume/vol-076911a3f7797e057 
+     Tags: 
+       Value: test-us-east-1 
+       Key: Name
+       ---------- 
+     ResourceARN: arn:aws:ec2:us-east-1:123456789012 :vpc/vpc-a57603dc 
+     Tags: 
+       Value: spot-cli-test 
+       Key: Name
+       ---------- 
+     ResourceARN: arn:aws:elasticfilesystem:us-east-1:123456789012 :file-system/fs-8f42ccc6 
+     Tags: 
+       Value: training-EFS 
+       Key: Name
+       ---------- 
+     ResourceARN: arn:aws:rds:us-east-1:123456789012 :es:a-test-rds-restore-eventsubrdsalarm-1s4dcxjw3iqlj 
+     Tags: 
+       Value: eventSubRdsAlarm 
+       Key: aws:cloudformation:logical-id
+       ---------- 
+       Value: arn:aws:cloudformation:us-east-1:123456789012 :stack/a-test-rds-Restore/70813c40-c124-11e6-9887-50d5ca63268e 
+       Key: aws:cloudformation:stack-id
+       ---------- 
+       Value: a-test-rds-Restore 
+       Key: aws:cloudformation:stack-name
+       ---------- 
+     ResourceARN: arn:aws:rds:us-east-1:123456789012 :es:a-test-rds-restore-eventsubrdsinstancesevents-befydacz6co3 
+     Tags: 
+       Value: eventSubRdsInstancesEvents 
+       Key: aws:cloudformation:logical-id
+       ---------- 
+       Value: arn:aws:cloudformation:us-east-1:123456789012 :stack/a-test-rds-Restore/70813c40-c124-11e6-9887-50d5ca63268e 
+       Key: aws:cloudformation:stack-id
+       ---------- 
+       Value: a-test-rds-Restore 
+       Key: aws:cloudformation:stack-name
+       ---------- 
+     ResourceARN: arn:aws:rds:us-east-1:123456789012 :es:a-test-rds-restore-eventsubrdsparametergroupsevents-w84s3lr3tofr 
+     Tags: 
+       Value: eventSubRdsParametergroupsEvents 
+       Key: aws:cloudformation:logical-id
+       ---------- 
+       Value: arn:aws:cloudformation:us-east-1:123456789012 :stack/a-test-rds-Restore/70813c40-c124-11e6-9887-50d5ca63268e 
+       Key: aws:cloudformation:stack-id
+       ---------- 
+       Value: a-test-rds-Restore 
+       Key: aws:cloudformation:stack-name
+       ---------- 
+     ResourceARN: arn:aws:rds:us-east-1:123456789012 :es:a-test-rds-restore-eventsubrdssecuritygroupsevents-w36jpbrfrpet 
+     Tags: 
+       Value: eventSubRdsSecuritygroupsEvents 
+       Key: aws:cloudformation:logical-id
+       ---------- 
+       Value: arn:aws:cloudformation:us-east-1:123456789012 :stack/a-test-rds-Restore/70813c40-c124-11e6-9887-50d5ca63268e 
+       Key: aws:cloudformation:stack-id
+       ---------- 
+       Value: a-test-rds-Restore 
+       Key: aws:cloudformation:stack-name
+       ---------- 
+     ResourceARN: arn:aws:rds:us-east-1:123456789012 :es:a-test-rds-restore-eventsubrdssnapshotsevents-1lerzs00pod21 
+     Tags: 
+       Value: eventSubRdsSnapshotsEvents 
+       Key: aws:cloudformation:logical-id
+       ---------- 
+       Value: arn:aws:cloudformation:us-east-1:123456789012 :stack/a-test-rds-Restore/70813c40-c124-11e6-9887-50d5ca63268e 
+       Key: aws:cloudformation:stack-id
+       ---------- 
+       Value: a-test-rds-Restore 
+       Key: aws:cloudformation:stack-name
+       ---------- 
+     ResourceARN: arn:aws:rds:us-east-1:123456789012 :es:rds-nodata-eventsubrdsalarm-1i25y8gymqdpk 
+     Tags: 
+       Value: eventSubRdsAlarm 
+       Key: aws:cloudformation:logical-id
+       ---------- 
+       Value: arn:aws:cloudformation:us-east-1:123456789012 :stack/rds-NoData/146bd020-2f18-11e7-b9d4-500c21792a35 
+       Key: aws:cloudformation:stack-id
+       ---------- 
+       Value: rds-NoData 
+       Key: aws:cloudformation:stack-name
+       ---------- 
+     ResourceARN: arn:aws:rds:us-east-1:123456789012 :es:rds-nodata-eventsubrdsalarm-1mqvyc6egnafp 
+     Tags: 
+       Value: eventSubRdsAlarm 
+       Key: aws:cloudformation:logical-id
+       ---------- 
+       Value: arn:aws:cloudformation:us-east-1:123456789012 :stack/rds-NoData/681cc180-362e-11e7-9671-503f23fb559a 
+       Key: aws:cloudformation:stack-id
+       ---------- 
+       Value: rds-NoData 
+       Key: aws:cloudformation:stack-name
+       ---------- 
+     ResourceARN: arn:aws:rds:us-east-1:123456789012 :es:rds-nodata-eventsubrdsalarm-1rv644qtn17wm 
+     Tags: 
+       Value: eventSubRdsAlarm 
+       Key: aws:cloudformation:logical-id
+       ---------- 
+       Value: arn:aws:cloudformation:us-east-1:123456789012 :stack/rds-NoData/4132b440-3948-11e7-acf4-500abe228429 
+       Key: aws:cloudformation:stack-id
+       ---------- 
+       Value: rds-NoData 
+       Key: aws:cloudformation:stack-name
+       ---------- 
+     ResourceARN: arn:aws:rds:us-east-1:123456789012 :es:rds-nodata-eventsubrdsalarm-23g0uugfvr5g 
+     Tags: 
+       Value: eventSubRdsAlarm 
+       Key: aws:cloudformation:logical-id
+       ---------- 
+       Value: arn:aws:cloudformation:us-east-1:123456789012 :stack/rds-NoData/55242da0-2a64-11e7-9ae9-500c5240588e 
+       Key: aws:cloudformation:stack-id
+       ---------- 
+       Value: rds-NoData 
+       Key: aws:cloudformation:stack-name
+       ---------- 
+     ResourceARN: arn:aws:rds:us-east-1:123456789012 :es:rds-nodata-eventsubrdsalarm-b6xwk0fy4q9t 
+     Tags: 
+       Value: eventSubRdsAlarm 
+       Key: aws:cloudformation:logical-id
+       ---------- 
+       Value: arn:aws:cloudformation:us-east-1:123456789012 :stack/rds-NoData/27fdfec0-3188-11e7-9c44-50faeaa964fd 
+       Key: aws:cloudformation:stack-id
+       ---------- 
+       Value: rds-NoData 
+       Key: aws:cloudformation:stack-name
+       ---------- 
+     ResourceARN: arn:aws:rds:us-east-1:123456789012 :es:rds-nodata-eventsubrdsalarm-kyy5ty37a5a5 
+     Tags: 
+       Value: eventSubRdsAlarm 
+       Key: aws:cloudformation:logical-id
+       ---------- 
+       Value: arn:aws:cloudformation:us-east-1:123456789012 :stack/rds-NoData/f2e89f50-28e6-11e7-8c55-50faeaabf0d1 
+       Key: aws:cloudformation:stack-id
+       ---------- 
+       Value: rds-NoData 
+       Key: aws:cloudformation:stack-name
+       ---------- 
+     ResourceARN: arn:aws:rds:us-east-1:123456789012 :es:rds-nodata-eventsubrdsinstancesevents-1aguu1q3n48im 
+     Tags: 
+       Value: eventSubRdsInstancesEvents 
+       Key: aws:cloudformation:logical-id
+       ---------- 
+       Value: arn:aws:cloudformation:us-east-1:123456789012 :stack/rds-NoData/4132b440-3948-11e7-acf4-500abe228429 
+       Key: aws:cloudformation:stack-id
+       ---------- 
+       Value: rds-NoData 
+       Key: aws:cloudformation:stack-name
+       ---------- 
+     ResourceARN: arn:aws:rds:us-east-1:123456789012 :es:rds-nodata-eventsubrdsinstancesevents-1nzmjt2czhza4 
+     Tags: 
+       Value: eventSubRdsInstancesEvents 
+       Key: aws:cloudformation:logical-id
+       ---------- 
+       Value: arn:aws:cloudformation:us-east-1:123456789012 :stack/rds-NoData/681cc180-362e-11e7-9671-503f23fb559a 
+       Key: aws:cloudformation:stack-id
+       ---------- 
+       Value: rds-NoData 
+       Key: aws:cloudformation:stack-name
+       ---------- 
+     ResourceARN: arn:aws:rds:us-east-1:123456789012 :es:rds-nodata-eventsubrdsinstancesevents-1pintef6g8vwl 
+     Tags: 
+       Value: eventSubRdsInstancesEvents 
+       Key: aws:cloudformation:logical-id
+       ---------- 
+       Value: arn:aws:cloudformation:us-east-1:123456789012 :stack/rds-NoData/146bd020-2f18-11e7-b9d4-500c21792a35 
+       Key: aws:cloudformation:stack-id
+       ---------- 
+       Value: rds-NoData 
+       Key: aws:cloudformation:stack-name
+       ---------- 
+     ResourceARN: arn:aws:rds:us-east-1:123456789012 :es:rds-nodata-eventsubrdsinstancesevents-6awiydgatjdj 
+     Tags: 
+       Value: eventSubRdsInstancesEvents 
+       Key: aws:cloudformation:logical-id
+       ---------- 
+       Value: arn:aws:cloudformation:us-east-1:123456789012 :stack/rds-NoData/f2e89f50-28e6-11e7-8c55-50faeaabf0d1 
+       Key: aws:cloudformation:stack-id
+       ---------- 
+       Value: rds-NoData 
+       Key: aws:cloudformation:stack-name
+       ---------- 
+     ResourceARN: arn:aws:rds:us-east-1:123456789012 :es:rds-nodata-eventsubrdsinstancesevents-lxq4h6or8aox 
+     Tags: 
+       Value: eventSubRdsInstancesEvents 
+       Key: aws:cloudformation:logical-id
+       ---------- 
+       Value: arn:aws:cloudformation:us-east-1:123456789012 :stack/rds-NoData/27fdfec0-3188-11e7-9c44-50faeaa964fd 
+       Key: aws:cloudformation:stack-id
+       ---------- 
+       Value: rds-NoData 
+       Key: aws:cloudformation:stack-name
+       ---------- 
+     ResourceARN: arn:aws:rds:us-east-1:123456789012 :es:rds-nodata-eventsubrdsinstancesevents-qo2so4wkz5f0 
+     Tags: 
+       Value: eventSubRdsInstancesEvents 
+       Key: aws:cloudformation:logical-id
+       ---------- 
+       Value: arn:aws:cloudformation:us-east-1:123456789012 :stack/rds-NoData/55242da0-2a64-11e7-9ae9-500c5240588e 
+       Key: aws:cloudformation:stack-id
+       ---------- 
+       Value: rds-NoData 
+       Key: aws:cloudformation:stack-name
+       ---------- 
+     ResourceARN: arn:aws:rds:us-east-1:123456789012 :es:rds-nodata-eventsubrdsinstancesevents-sxr2ta8m3kx6 
+     Tags: 
+       Value: eventSubRdsInstancesEvents 
+       Key: aws:cloudformation:logical-id
+       ---------- 
+       Value: arn:aws:cloudformation:us-east-1:123456789012 :stack/rds-NoData/9430d3b0-28e1-11e7-9b5f-500c217b26c6 
+       Key: aws:cloudformation:stack-id
+       ---------- 
+       Value: rds-NoData 
+       Key: aws:cloudformation:stack-name
+       ---------- 
+     ResourceARN: arn:aws:rds:us-east-1:123456789012 :es:rds-nodata-eventsubrdsparametergroupsevents-1e0zep1e3zcg2 
+     Tags: 
+       Value: eventSubRdsParametergroupsEvents 
+       Key: aws:cloudformation:logical-id
+       ---------- 
+       Value: arn:aws:cloudformation:us-east-1:123456789012 :stack/rds-NoData/146bd020-2f18-11e7-b9d4-500c21792a35 
+       Key: aws:cloudformation:stack-id
+       ---------- 
+       Value: rds-NoData 
+       Key: aws:cloudformation:stack-name
+       ---------- 
+     ResourceARN: arn:aws:rds:us-east-1:123456789012 :es:rds-nodata-eventsubrdsparametergroupsevents-1teddodtd55hy 
+     Tags: 
+       Value: eventSubRdsParametergroupsEvents 
+       Key: aws:cloudformation:logical-id
+       ---------- 
+       Value: arn:aws:cloudformation:us-east-1:123456789012 :stack/rds-NoData/55242da0-2a64-11e7-9ae9-500c5240588e 
+       Key: aws:cloudformation:stack-id
+       ---------- 
+       Value: rds-NoData 
+       Key: aws:cloudformation:stack-name
+       ---------- 
+     ResourceARN: arn:aws:rds:us-east-1:123456789012 :es:rds-nodata-eventsubrdsparametergroupsevents-1u5dxlue521u8 
+     Tags: 
+       Value: eventSubRdsParametergroupsEvents 
+       Key: aws:cloudformation:logical-id
+       ---------- 
+       Value: arn:aws:cloudformation:us-east-1:123456789012 :stack/rds-NoData/681cc180-362e-11e7-9671-503f23fb559a 
+       Key: aws:cloudformation:stack-id
+       ---------- 
+       Value: rds-NoData 
+       Key: aws:cloudformation:stack-name
+       ---------- 
+     ResourceARN: arn:aws:rds:us-east-1:123456789012 :es:rds-nodata-eventsubrdsparametergroupsevents-7fe7jtngy4gc 
+     Tags: 
+       Value: eventSubRdsParametergroupsEvents 
+       Key: aws:cloudformation:logical-id
+       ---------- 
+       Value: arn:aws:cloudformation:us-east-1:123456789012 :stack/rds-NoData/9430d3b0-28e1-11e7-9b5f-500c217b26c6 
+       Key: aws:cloudformation:stack-id
+       ---------- 
+       Value: rds-NoData 
+       Key: aws:cloudformation:stack-name
+       ---------- 
+     ResourceARN: arn:aws:rds:us-east-1:123456789012 :es:rds-nodata-eventsubrdsparametergroupsevents-8sachm9pwxje 
+     Tags: 
+       Value: eventSubRdsParametergroupsEvents 
+       Key: aws:cloudformation:logical-id
+       ---------- 
+       Value: arn:aws:cloudformation:us-east-1:123456789012 :stack/rds-NoData/27fdfec0-3188-11e7-9c44-50faeaa964fd 
+       Key: aws:cloudformation:stack-id
+       ---------- 
+       Value: rds-NoData 
+       Key: aws:cloudformation:stack-name
+       ---------- 
+     ResourceARN: arn:aws:rds:us-east-1:123456789012 :es:rds-nodata-eventsubrdsparametergroupsevents-ghafilr94lgm 
+     Tags: 
+       Value: eventSubRdsParametergroupsEvents 
+       Key: aws:cloudformation:logical-id
+       ---------- 
+       Value: arn:aws:cloudformation:us-east-1:123456789012 :stack/rds-NoData/f2e89f50-28e6-11e7-8c55-50faeaabf0d1 
+       Key: aws:cloudformation:stack-id
+       ---------- 
+       Value: rds-NoData 
+       Key: aws:cloudformation:stack-name
+       ---------- 
+     ResourceARN: arn:aws:rds:us-east-1:123456789012 :es:rds-nodata-eventsubrdsparametergroupsevents-xq0ttdw4tnie 
+     Tags: 
+       Value: eventSubRdsParametergroupsEvents 
+       Key: aws:cloudformation:logical-id
+       ---------- 
+       Value: arn:aws:cloudformation:us-east-1:123456789012 :stack/rds-NoData/4132b440-3948-11e7-acf4-500abe228429 
+       Key: aws:cloudformation:stack-id
+       ---------- 
+       Value: rds-NoData 
+       Key: aws:cloudformation:stack-name
+       ---------- 
+     ResourceARN: arn:aws:rds:us-east-1:123456789012 :es:rds-nodata-eventsubrdssecuritygroupsevents-23h43yfjbbzl 
+     Tags: 
+       Value: eventSubRdsSecuritygroupsEvents 
+       Key: aws:cloudformation:logical-id
+       ---------- 
+       Value: arn:aws:cloudformation:us-east-1:123456789012 :stack/rds-NoData/681cc180-362e-11e7-9671-503f23fb559a 
+       Key: aws:cloudformation:stack-id
+       ---------- 
+       Value: rds-NoData 
+       Key: aws:cloudformation:stack-name
+       ---------- 
+     ResourceARN: arn:aws:rds:us-east-1:123456789012 :es:rds-nodata-eventsubrdssecuritygroupsevents-3b8wizjly9mp 
+     Tags: 
+       Value: eventSubRdsSecuritygroupsEvents 
+       Key: aws:cloudformation:logical-id
+       ---------- 
+       Value: arn:aws:cloudformation:us-east-1:123456789012 :stack/rds-NoData/146bd020-2f18-11e7-b9d4-500c21792a35 
+       Key: aws:cloudformation:stack-id
+       ---------- 
+       Value: rds-NoData 
+       Key: aws:cloudformation:stack-name
+       ---------- 
+     ResourceARN: arn:aws:rds:us-east-1:123456789012 :es:rds-nodata-eventsubrdssecuritygroupsevents-nhqy29pw588c 
+     Tags: 
+       Value: eventSubRdsSecuritygroupsEvents 
+       Key: aws:cloudformation:logical-id
+       ---------- 
+       Value: arn:aws:cloudformation:us-east-1:123456789012 :stack/rds-NoData/55242da0-2a64-11e7-9ae9-500c5240588e 
+       Key: aws:cloudformation:stack-id
+       ---------- 
+       Value: rds-NoData 
+       Key: aws:cloudformation:stack-name
+       ---------- 
+     ResourceARN: arn:aws:rds:us-east-1:123456789012 :es:rds-nodata-eventsubrdssecuritygroupsevents-ovg9kyyum4w7 
+     Tags: 
+       Value: eventSubRdsSecuritygroupsEvents 
+       Key: aws:cloudformation:logical-id
+       ---------- 
+       Value: arn:aws:cloudformation:us-east-1:123456789012 :stack/rds-NoData/9430d3b0-28e1-11e7-9b5f-500c217b26c6 
+       Key: aws:cloudformation:stack-id
+       ---------- 
+       Value: rds-NoData 
+       Key: aws:cloudformation:stack-name
+       ---------- 
+     ResourceARN: arn:aws:rds:us-east-1:123456789012 :es:rds-nodata-eventsubrdssecuritygroupsevents-pjcdyyqztgm4 
+     Tags: 
+       Value: eventSubRdsSecuritygroupsEvents 
+       Key: aws:cloudformation:logical-id
+       ---------- 
+       Value: arn:aws:cloudformation:us-east-1:123456789012 :stack/rds-NoData/4132b440-3948-11e7-acf4-500abe228429 
+       Key: aws:cloudformation:stack-id
+       ---------- 
+       Value: rds-NoData 
+       Key: aws:cloudformation:stack-name
+       ---------- 
+     ResourceARN: arn:aws:rds:us-east-1:123456789012 :es:rds-nodata-eventsubrdssecuritygroupsevents-t2895elfx8lk 
+     Tags: 
+       Value: eventSubRdsSecuritygroupsEvents 
+       Key: aws:cloudformation:logical-id
+       ---------- 
+       Value: arn:aws:cloudformation:us-east-1:123456789012 :stack/rds-NoData/27fdfec0-3188-11e7-9c44-50faeaa964fd 
+       Key: aws:cloudformation:stack-id
+       ---------- 
+       Value: rds-NoData 
+       Key: aws:cloudformation:stack-name
+       ---------- 
+     ResourceARN: arn:aws:rds:us-east-1:123456789012 :es:rds-nodata-eventsubrdssecuritygroupsevents-yiinsn9rqoel 
+     Tags: 
+       Value: eventSubRdsSecuritygroupsEvents 
+       Key: aws:cloudformation:logical-id
+       ---------- 
+       Value: arn:aws:cloudformation:us-east-1:123456789012 :stack/rds-NoData/f2e89f50-28e6-11e7-8c55-50faeaabf0d1 
+       Key: aws:cloudformation:stack-id
+       ---------- 
+       Value: rds-NoData 
+       Key: aws:cloudformation:stack-name
+       ---------- 
+     ResourceARN: arn:aws:rds:us-east-1:123456789012 :es:rds-nodata-eventsubrdssnapshotsevents-1aas5q7j5rv1b 
+     Tags: 
+       Value: eventSubRdsSnapshotsEvents 
+       Key: aws:cloudformation:logical-id
+       ---------- 
+       Value: arn:aws:cloudformation:us-east-1:123456789012 :stack/rds-NoData/27fdfec0-3188-11e7-9c44-50faeaa964fd 
+       Key: aws:cloudformation:stack-id
+       ---------- 
+       Value: rds-NoData 
+       Key: aws:cloudformation:stack-name
+       ---------- 
+     ResourceARN: arn:aws:rds:us-east-1:123456789012 :es:rds-nodata-eventsubrdssnapshotsevents-1e1bnyfmcawg5 
+     Tags: 
+       Value: eventSubRdsSnapshotsEvents 
+       Key: aws:cloudformation:logical-id
+       ---------- 
+       Value: arn:aws:cloudformation:us-east-1:123456789012 :stack/rds-NoData/146bd020-2f18-11e7-b9d4-500c21792a35 
+       Key: aws:cloudformation:stack-id
+       ---------- 
+       Value: rds-NoData 
+       Key: aws:cloudformation:stack-name
+       ---------- 
+     ResourceARN: arn:aws:rds:us-east-1:123456789012 :es:rds-nodata-eventsubrdssnapshotsevents-1fbv3hjh7e5gd 
+     Tags: 
+       Value: eventSubRdsSnapshotsEvents 
+       Key: aws:cloudformation:logical-id
+       ---------- 
+       Value: arn:aws:cloudformation:us-east-1:123456789012 :stack/rds-NoData/681cc180-362e-11e7-9671-503f23fb559a 
+       Key: aws:cloudformation:stack-id
+       ---------- 
+       Value: rds-NoData 
+       Key: aws:cloudformation:stack-name
+       ---------- 
+     ResourceARN: arn:aws:rds:us-east-1:123456789012 :es:rds-nodata-eventsubrdssnapshotsevents-1sz03d0n2ublj 
+     Tags: 
+       Value: eventSubRdsSnapshotsEvents 
+       Key: aws:cloudformation:logical-id
+       ---------- 
+       Value: arn:aws:cloudformation:us-east-1:123456789012 :stack/rds-NoData/f2e89f50-28e6-11e7-8c55-50faeaabf0d1 
+       Key: aws:cloudformation:stack-id
+       ---------- 
+       Value: rds-NoData 
+       Key: aws:cloudformation:stack-name
+       ---------- 
+     ResourceARN: arn:aws:rds:us-east-1:123456789012 :es:rds-nodata-eventsubrdssnapshotsevents-ew5hd2a4e3de 
+     Tags: 
+       Value: eventSubRdsSnapshotsEvents 
+       Key: aws:cloudformation:logical-id
+       ---------- 
+       Value: arn:aws:cloudformation:us-east-1:123456789012 :stack/rds-NoData/4132b440-3948-11e7-acf4-500abe228429 
+       Key: aws:cloudformation:stack-id
+       ---------- 
+       Value: rds-NoData 
+       Key: aws:cloudformation:stack-name
+       ---------- 
+     ResourceARN: arn:aws:rds:us-east-1:123456789012 :es:rds-nodata-eventsubrdssnapshotsevents-tfwrtnaq1ny6 
+     Tags: 
+       Value: eventSubRdsSnapshotsEvents 
+       Key: aws:cloudformation:logical-id
+       ---------- 
+       Value: arn:aws:cloudformation:us-east-1:123456789012 :stack/rds-NoData/55242da0-2a64-11e7-9ae9-500c5240588e 
+       Key: aws:cloudformation:stack-id
+       ---------- 
+       Value: rds-NoData 
+       Key: aws:cloudformation:stack-name
+       ---------- 
+     ResourceARN: arn:aws:s3:::egl-cloudtrail-dev02-logs 
+     Tags: 
+       Value: logs 
+       Key: function
+       ---------- 
+       Value: cloudwatch 
+       Key: service
+     --------------------------------------------------------------------------------------------------
+     --------------------------------------------------------------------------------------------------
+     
+     Tagable resources in region: us-east-2 count:11
+     --------------------------------------------------
+     ResourceARN: arn:aws:ec2:us-east-2:123456789012 :customer-gateway/cgw-3459d504 
+     Tags: 
+       Value: test-customer-gateway 
+       Key: Name
+       ---------- 
+     ResourceARN: arn:aws:ec2:us-east-2:123456789012 :internet-gateway/igw-e524ac8c 
+     Tags: 
+       Value: vpc-default-igw 
+       Key: Name
+       ---------- 
+     ResourceARN: arn:aws:ec2:us-east-2:123456789012 :network-acl/acl-594f0930 
+     Tags: 
+       Value: zz-default-vpc-default-nacl 
+       Key: Name
+       ---------- 
+     ResourceARN: arn:aws:ec2:us-east-2:123456789012 :route-table/rtb-83abe7ea 
+     Tags: 
+       Value: zz-default-vpc-default-route 
+       Key: Name
+       ---------- 
+     ResourceARN: arn:aws:ec2:us-east-2:123456789012 :security-group/sg-9e3a2df7 
+     Tags: 
+       Value: default vpc - default sg 
+       Key: Name
+       ---------- 
+     ResourceARN: arn:aws:ec2:us-east-2:123456789012 :subnet/subnet-4dee3c00 
+     Tags: 
+       Value: zzz-default-c 
+       Key: Name
+       ---------- 
+     ResourceARN: arn:aws:ec2:us-east-2:123456789012 :subnet/subnet-7c67e807 
+     Tags: 
+       Value: zzz-default-b 
+       Key: Name
+       ---------- 
+     ResourceARN: arn:aws:ec2:us-east-2:123456789012 :subnet/subnet-afa9e9c6 
+     Tags: 
+       Value: zzz-default-a 
+       Key: Name
+       ---------- 
+     ResourceARN: arn:aws:ec2:us-east-2:123456789012 :vpc/vpc-3e5e2c57 
+     Tags: 
+       Value: default 
+       Key: Name
+       ---------- 
+     ResourceARN: arn:aws:ec2:us-east-2:123456789012 :vpn-connection/vpn-a9c3089e 
+     Tags: 
+       Value: test 
+       Key: Name
+       ---------- 
+     ResourceARN: arn:aws:ec2:us-east-2:123456789012 :vpn-gateway/vgw-b732bf87 
+     Tags: 
+       Value: test-vpg 
+       Key: Name
+     --------------------------------------------------------------------------------------------------
+     --------------------------------------------------------------------------------------------------
+     
+     Tagable resources in region: us-west-1 count:0
+     --------------------------------------------------
+     
+     --------------------------------------------------------------------------------------------------
+     --------------------------------------------------------------------------------------------------
+     
+     Tagable resources in region: us-west-2 count:0
+     --------------------------------------------------
+     
+     --------------------------------------------------------------------------------------------------
+
+
+  ------------------------------------------------------------------------------------------
+  ------------------------------------------------------------------------------------------
+
+
