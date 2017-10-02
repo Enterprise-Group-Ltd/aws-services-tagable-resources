@@ -2,7 +2,7 @@
 
 This shell script reports all tagable resources/services/objects for all AWS services in all AWS regions.
 
-This utility produces snapshots that:
+This utility produces reports that:
 
 * Answer the question: "What tagable resources/services/objects do we have in this AWS account?"
 * Create an audit trail of AWS tagable resources/services/objects count by region 
