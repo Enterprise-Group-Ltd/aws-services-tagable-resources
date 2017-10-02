@@ -17,7 +17,6 @@ This utility can:
 This utility produces a summary report including:
 
 * AWS account and alias
-* AWS regions
 * The number of regions 
 * The number of tagable resources
 * The number of tags
@@ -27,7 +26,6 @@ This utility produces a summary report including:
 This utility produces a detail report including:
 
 * AWS account and alias
-* AWS regions
 * The number of regions 
 * The number of tagable resources
 * The number of tags
