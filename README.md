@@ -1,4 +1,4 @@
-# EGL AWS Snapshot Services AMI Utility
+# EGL AWS Report Tagable Resources/Services/Objects Utility
 
 This shell script reports all tagable resources for all AWS services in all AWS regions
 
