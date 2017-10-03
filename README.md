@@ -49,7 +49,7 @@ This utility produces a list report including:
     * AWS CLI named profile documentation is here: [Named Profiles](http://docs.aws.amazon.com/cli/latest/userguide/cli-multiple-profiles.html)
 4. Install the [bash](https://www.gnu.org/software/bash/) shell
     * The bash shell is included in most distributions and is pre-installed on AWS EC2 Linux instances
-5. Download this utility script or create a local copy and run it on the local or EC2 linux instance
+5. Download this utility script or create a local copy and run it on the local or EC2 Linux instance
     * Example: `$ bash ./aws-services-tagable-resources.sh -p AWS_CLI_profile`  
 
 ## [Prerequisites](#prerequisites)
@@ -87,7 +87,7 @@ To directly execute the utility:
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/Enterprise-Group-Ltd/aws-services-tagable-resources/blob/master/CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/Enterprise-Group-Ltd/aws-services-tagable-resources/blob/master/CONTRIBUTING.md) for  the process for submitting pull requests to us.
 
 ## Versioning
 
