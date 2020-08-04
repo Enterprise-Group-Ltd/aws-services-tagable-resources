@@ -1380,7 +1380,7 @@ fnWriteLog ${LINENO} level_0 ""
 fnWriteLog ${LINENO} level_0 "This task can take a while. Please wait..."
 fnWriteLog ${LINENO} "pulling a list of current AWS regions and loading variable 'aws_region_list' "
 fnWriteLog ${LINENO} "command: aws ec2 describe-regions --output text --profile "$cli_profile" "
-aws_region_list="$(aws ec2 describe-regions --output text --profile "$cli_profile" | cut -f3 | sort 2>&1)"
+aws_region_list="$(aws ec2 describe-regions --output text --profile "$cli_profile" | cut -f4 | sort 2>&1)"
 #
 # check for command / pipeline error(s)
 if [ "$?" -ne 0 ]
