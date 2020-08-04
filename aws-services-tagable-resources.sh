@@ -66,8 +66,8 @@ script_version=1.0.12
 #   * main data loop
 #         The following code was provided by AWS support, which inspired this project:
 #     
-#           regionlist=$(aws ec2 describe-regions --output text $cliprofile | cut -f3)
-#           for region in `aws ec2 describe-regions --output text | cut -f3`
+#           regionlist=$(aws ec2 describe-regions --output text $cliprofile | cut -f4)
+#           for region in `aws ec2 describe-regions --output text | cut -f4`
 #           do
 #               aws resourcegroupstaggingapi get-resources --region $region $cliprofile
 #           done
